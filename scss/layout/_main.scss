@@ -1,0 +1,39 @@
+main {
+    .estiloComida {
+        background-color: rgb(95, 77, 77);
+        border-radius: 40px;
+        color: aliceblue;
+        text-align: center;
+    }
+    .nenaWrap {
+        text-align: center;
+        .nenaWrap2 {
+                width: 40%;
+                padding-bottom: 4px;  
+        }
+    }
+    .card {
+        .imgWrapCañada {
+            width: 100%;
+            height: 100%;
+        }
+        .linkVermas {
+            text-decoration: none;
+            color: black;
+            & :hover {
+                color: blue;
+            } 
+        }
+    }
+    section {
+        .dondeEstamos{
+            display: flex;
+            justify-content: center;
+                .estiloComida {
+                    background-color: rgb(95, 77, 77);
+                    border-radius: 40px;
+                    color: aliceblue;
+                }
+        }
+}
+}
