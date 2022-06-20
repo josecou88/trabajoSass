@@ -1,1 +1,17 @@
-$colorLocal: rgb(91, 155, 134)
+$colorLocal: rgb(91, 155, 134);
+$colorBarraNav: rgb(31, 29, 29);
+@mixin h2_header (){     
+    text-align: center;
+    color: rgb(231, 222, 210);
+    text-decoration: underline;
+    font-family:cursive;
+}
+@mixin subTpags () {
+    text-decoration: rgb(254, 255, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 90% ;
+    
+}

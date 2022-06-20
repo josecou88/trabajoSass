@@ -1,0 +1,23 @@
+.container {
+    .row {
+        .textoQuienes {
+            border: solid 0px ;
+            background-color: $colorLocal;
+        }
+    }
+    
+
+}
+.opiniones {
+    background-color: $colorLocal; 
+    .resenaBorde {
+        background-color: rgb(167, 96, 214);
+        border: solid 0.5px rgb(32, 30, 30) ;
+        border-radius: 20px;
+    }
+}
+.textoQuienes {    
+    text-align: center;
+    text-decoration: double;
+    font-family: cursive;
+    }

@@ -4,17 +4,16 @@ nav {
   nav .logoBaru {
     width: 9vw; }
   nav a :hover {
-    color: blue;
+    color: #3f3fe4;
     text-decoration: underline;
     cursor: pointer; }
 
-header {
-  background-color: #5b9b86; }
-  header h2 {
-    text-align: center;
-    color: #e6dccf;
-    text-decoration: underline;
-    font-family: cursive; }
+.tituloH2 {
+  background-color: #5b9b86;
+  text-align: center;
+  color: #e7ded2;
+  text-decoration: underline;
+  font-family: cursive; }
 
 main .estiloComida {
   background-color: #5f4d4d;
@@ -52,6 +51,41 @@ footer ul {
   align-items: center; }
   footer ul .logoinstagram {
     width: 5vw; }
+
+footer .palabrasFoot :hover {
+  zoom: 110%;
+  color: blue; }
+
+.tituloH2 {
+  background-color: #5b9b86;
+  text-align: center;
+  color: #e7ded2;
+  text-decoration: underline;
+  font-family: cursive; }
+
+.tituloPag {
+  text-decoration: #feffff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  opacity: 90%; }
+
+.container .row .textoQuienes {
+  border: solid 0px;
+  background-color: #5b9b86; }
+
+.opiniones {
+  background-color: #5b9b86; }
+  .opiniones .resenaBorde {
+    background-color: #a760d6;
+    border: solid 0.5px #201e1e;
+    border-radius: 20px; }
+
+.textoQuienes {
+  text-align: center;
+  text-decoration: double;
+  font-family: cursive; }
 
 body {
   background-color: #837575;

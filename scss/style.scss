@@ -1,9 +1,11 @@
 @import "./utilities/variables.scss";
-@import "./layout/nav";
-@import "./layout/header";
-@import "./layout/main";
-@import "./layout/footer";
-
+@import "./layout_index/nav";
+@import "./layout_index/header";
+@import "./layout_index/main";
+@import "./layout_index/footer";
+@import "./layout_quienSomos/headerQ";
+@import "./layout_quienSomos/main";
+@import "./layout_quienSomos/footerQ";
 
 body {
     background-color: rgb(131, 117, 117);
