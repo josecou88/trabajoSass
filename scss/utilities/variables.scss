@@ -7,11 +7,11 @@ $colorBarraNav: rgb(31, 29, 29);
     font-family:cursive;
 }
 @mixin subTpags () {
-    text-decoration: rgb(254, 255, 255);
+    text-decoration: white;
     padding: 10px;
     display: flex;
     justify-content: center;
     background-color: black;
-    opacity: 90% ;
+    
     
 }

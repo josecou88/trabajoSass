@@ -1,0 +1,13 @@
+.tituloform {
+    background-color:$colorLocal;
+    @include h2_header ;
+}
+.contenedorh4 {
+    .subtit {
+        background-color: rgb(73, 63, 63);
+        opacity: 95%;
+        align-items: center;
+        padding: 4px;
+        padding-right: 5px;
+    }
+}    

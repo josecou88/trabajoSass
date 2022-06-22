@@ -1,11 +1,21 @@
 @import "./utilities/variables.scss";
+// imports Index
 @import "./layout_index/nav";
 @import "./layout_index/header";
 @import "./layout_index/main";
 @import "./layout_index/footer";
+// imports quienes somos
 @import "./layout_quienSomos/headerQ";
 @import "./layout_quienSomos/main";
 @import "./layout_quienSomos/footerQ";
+// imports formulario
+@import "./layout_formulario/headerF";
+@import "./layout_formulario/mainF";
+@import "./layout_formulario/footerF";
+// import carta
+@import "./layout_carta/headerC";
+@import "./layout_carta/mainC";
+// Style Body
 
 body {
     background-color: rgb(131, 117, 117);
